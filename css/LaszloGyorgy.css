@@ -1,0 +1,165 @@
+
+
+body {
+	font: 15px/1.25 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0 ;
+	background-color: #f4f4f4; /*#A5A5AF;*/
+}
+
+/*global*/
+.container {
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.dark {
+	padding: 15px;
+	background: #015249;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*header*/
+
+header {
+	background: #015249;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a {
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header a:hover {
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/*showcase*/
+
+#showcase {
+	min-height: 200px;
+	background: url('../img/showcase.jpg') no-repeat;
+	text-align center;
+	color: /*#015249;*/ #ffffff;
+}
+
+ #showcase h1 {
+	margin-top: 80px;
+	font-size: 35px;
+	margin-bottom: 10px;
+	
+
+}
+ #showcase p{
+	 font-size: 20px;
+ }
+ 
+ /*emailme*/
+ 
+ #emailme {
+	 padding: 10px;
+	 color: #ffffff;
+	 background: #015249;
+	 font-size:10px;
+ }
+ 
+ /*boxes*/
+ 
+ #boxes {
+	 margin-top: 20px;
+	 
+ }
+ 
+ #boxes .box{
+	 float: left;
+	 text-align: center;
+	 width: 30%;
+	 padding: 10px;
+ }
+ 
+ #boxes .box img {
+	 /*width: 180px;*/
+	 height: 250px;
+ }
+ 
+ 
+ #main-col img {
+	 width: 400px;
+ }
+ 
+ 
+ 
+ /*sidebar*/
+ aside#sidebar {
+	 float: right;
+	 width: 30%;
+	 margin-top: 10px;
+	 
+ }
+ 
+ /*main-col*/
+ 
+ article#main-col{
+	 float: left;
+	 width: 65%;
+	 
+ }
+ 
+ footer {
+	 padding: 20px;
+	 margin-top: 20px;
+	 color: #ffffff;
+	 background-color: #e8491d;
+	 text-align: center;
+ }
+ 
+ /*Media Queries*/
+ 
+ @media(max-width:768px){
+	 header #branding, header nav, header nav li, #boxes .box, article#main-col	 {
+		 float: none;
+		 text-align: center;
+		 width: 100%;
+		 
+	 }
+ }
